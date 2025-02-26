@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(27, 128, 98);
+    display: flex;
+    justify-content: center;
+}
+.oppanel{
+    background-color: aliceblue;
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius:20px ;
+    box-shadow: 10px 20px rgba(0, 0, 0 ,0.1);
+}
+
+.input_area{
+    display: flex;
+    border-radius:100px ;
+}
+.text{
+    flex-grow: 1;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    outline: none;
+    border-radius:100px ;
+}
+.text:focus {
+    border-color: #007bff; /* 聚焦時邊框顏色改變 */
+    animation: blink 1s step-start 0s infinite;
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent; /* 光標消失 */
+    }
+  }
+.button{
+
+    padding: 10px 15px;
+    cursor:pointer ;
+    border-radius:10px ;
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+}
+.list li {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.list label {
+    flex-grow: 1;
+}
+.checkbox{
+    margin-right: 15px;
+}
+
+.trashcan {
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+/* }垃圾桶圖標 */
+.trashcan.hover {
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+}/*游標接近時顏色變深
+
+            
