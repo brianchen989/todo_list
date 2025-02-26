@@ -61,7 +61,7 @@ body{
     border: none;
     cursor: pointer;
     opacity: 0.5;
-/* }垃圾桶圖標 */
+ }/*垃圾桶圖標 */
 .trashcan.hover {
     background: none;
     border: none;
